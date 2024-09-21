@@ -29,7 +29,8 @@ canvas{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 150px;
+    height: 180px;
+  margin-top: -20px;
 }
 
 .image-container img {
@@ -46,6 +47,7 @@ canvas{
     filter: drop-shadow(0 0 2rem cyan); 
     animation: multiGlow 70s infinite;
     animation-delay: 1s; 
+  margin-top: -20px;
 }
 
 @keyframes multiGlow {
@@ -120,7 +122,7 @@ canvas{
         letter-spacing: 2px;
         z-index: 1;
         animation: shift 1s ease-in-out infinite alternate;
-        top: 580px;
+        top: 500px;
     }
 
     .glitch:before,
@@ -198,6 +200,7 @@ canvas{
     justify-content: center;
     align-items: flex-start;
     height: 70px;
+  margin-top: -20px;
 }
 .BirthDayText {
     font-size: 35px;
@@ -211,8 +214,8 @@ canvas{
 
 .card {
       position: relative;
-      width: 340px;
-      height: 445px;
+      width: 400px;
+      height: 545px;
       border: 10px solid #9612eb;
       margin: 60px auto 0 auto;
       box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
