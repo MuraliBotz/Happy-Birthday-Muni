@@ -27,9 +27,9 @@ canvas{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%; /* Increased width */
+  width: 100%; /* Increased width */
   height: 300px; /* Increased height */
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .image-container img {
@@ -118,7 +118,7 @@ canvas{
   line-height: 1.2;
   color: #fff;
   letter-spacing: 2px;
-  margin-top: 20px; /* Space between user container and glitch text */
+  margin-top: 0px; /* Space between user container and glitch text */
   animation: shift 1s ease-in-out infinite alternate;
 }
 
@@ -204,7 +204,7 @@ canvas{
   font-weight: 700;
   text-align: center;
   color: orange;
-  margin-top: 20px; /* Space between image and text */
+  margin-top: 0px; /* Space between image and text */
   animation: multiGlow 70s infinite;
 }
 
@@ -214,7 +214,7 @@ canvas{
   width: 400px;
   height: 545px;
   border: 10px solid #9612eb;
-  margin-top: 30px; /* Space between glitch text and card */
+  margin-top: 0px; /* Space between glitch text and card */
   box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
   background-image: linear-gradient(to bottom, rgba(255, 255, 255), rgba(255, 255, 255, 0.5)), url("https://images.unsplash.com/photo-1527481138388-31827a7c94d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
   background-position: center;
