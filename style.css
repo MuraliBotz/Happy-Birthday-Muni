@@ -33,8 +33,8 @@ canvas{
 }
 
 .image-container img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 200%;
+  max-height: 200%;
 }
 
 
@@ -42,8 +42,8 @@ canvas{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
-  height: 40vh;
+  width: 60%;
+  height: 30vh;
   z-index: 2;
   filter: drop-shadow(0 0 2rem cyan); 
   animation: multiGlow 70s infinite;
@@ -105,15 +105,15 @@ canvas{
 }
 
 .user-container img {
-    width: 220%;
-    height: 70%;
+    width: 200%;
+    height: 65%;
     z-index: 2;
   
 }
 
 .glitch {
   text-align: center;
-  font-size: 28px;
+  font-size: 35px;
   font-weight: 700;
   line-height: 1.2;
   color: #fff;
@@ -211,8 +211,8 @@ canvas{
 
 .card {
   position: relative;
-  width: 400px;
-  height: 545px;
+  width: 605px;
+  height: 605px;
   border: 10px solid #9612eb;
   margin-top: 0px; /* Space between glitch text and card */
   box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
