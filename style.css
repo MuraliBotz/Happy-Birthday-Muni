@@ -19,7 +19,8 @@ body {
 
 .image-container {
       margin-top: 0px; 
-  
+  height: 60px;
+	width: 100px;
     }
 
 img {
@@ -34,7 +35,7 @@ img {
 }
 
 .BirthDayText {
-  font-size: 50px; /* Increased font size */
+  font-size: 55px; /* Increased font size */
   font-weight: 700;
   text-align: center;
   color: cyan;
@@ -114,7 +115,7 @@ img {
         position: relative;
         text-align: center;
         transform: translate(-50%, -50%);
-        font-size: 28px;
+        font-size: 35px;
         font-weight: 700;
         line-height: 1.2;
         color: #fff;
@@ -196,8 +197,8 @@ img {
 
 .birthdaycard {
 	position: relative;
-	width: 250px;
-	height: 350px;
+	width: 450px;
+	height: 550px;
 	cursor: pointer;
 	transform-style: preserve-3d;
 	transform: perspective(2500px);
